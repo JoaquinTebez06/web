@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0)
+}
+
+a{
+    color: #fff;
+}
+
+body::-webkit-scrollbar{
+   display: none;
+}
+
+.conteiner{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.menu{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a{
+    padding: 7px 30px;
+}
+
+.menu-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.navbar ul i{
+    display: none;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;  
+}
+
+.navbar p{
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+.navbar p:hover{
+    background-color: rgb(19, 19, 19);
+    border-radius: 100px;
+}
+
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #292929;
+}
+
+.home-conteiner{
+    height: 100%;
+    display: flex;
+    padding: 30px 20px;
+}
+
+.home-info{
+    margin-top: 5cm;
+}
+
+.home-conteiner h1 a{
+    margin: 10px 0;
+    font-size: 1.5cm;
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.home-conteiner p{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.cv-botom{
+    font-size: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 20px;
+    margin-left: 40%;
+    border: 1px solid #c9cdfc;
+    background-color: #3a42b3;
+    padding: 10px 20px;
+    border-radius: 200px;
+    box-shadow: 0 0 0px #3a42b3,
+    0 0 0px #3a42b3, 
+    0 0 0px #3a42b3,
+    0 0 25px #3a42b3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.home-imagen{
+    padding: 20px;
+}
+
+.about-conteiner{
+    width: 100%;
+    height: 100%;
+}
+
+.about-info{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    color: #292929;
+}
+
+.about-imagen{
+    display: flex;
+    padding: 30px;
+}
+
+.about-me{
+    margin-top: 30%;
+}
+
+.about-me h1 a{
+    margin: 10px 0px;
+    font-size: 1.5cm;
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.about-me p{
+    color: #fff;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.leer-mas{
+    font-size: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 20px;
+    margin-left: 35%;
+    border: 1px solid #c9cdfc;
+    background-color: #3a42b3;
+    padding: 10px 20px;
+    border-radius: 200px;
+    box-shadow: 0 0 0px #3a42b3,
+    0 0 0px #3a42b3, 
+    0 0 0px #3a42b3,
+    0 0 25px #3a42b3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.leer-mas:hover{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    box-shadow: none;
+}
+
+.about-conteiner{
+    background: #080808;
+}
+
+.portfolio-conteiner{
+    height: 100%;
+    color: #fff;
+}
+
+.portfolio-info h1{
+    padding: 30px;
+    margin: 10px 0;
+    font-size: 1.5cm;
+}
+
+.portfolio-info h1 a{
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.targeta-conteiner{
+    display: flex;
+}
+
+.targeta{
+    border: 1px solid #c9cdfc;
+    padding: 20px 15px;
+    background: #080808;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.targeta-title{
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+    text-align: center;
+}
+
+.targeta-imagen-1{
+    margin-top: 0px;
+    width: 313px;
+    height: 200px;
+    background-image: url(imagenes/vida.jpg);
+    background-size: cover;
+}
+
+.targeta-imagen-2{
+    margin-top: -20px;
+    width: 313px;
+    height: 200px;
+    background-image: url(imagenes/teorema.jpg);
+    background-size: cover;
+}
+
+.targeta-imagen-3{
+    margin-top: -20px;
+    width: 313px;
+    height: 200px;
+    background-image: url(imagenes/filosofia.png);
+    background-size: cover;
+}
+
+.icono{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.contentcontacto{
+    background-color: #080808;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.contacto-conteiner{
+    color: #fff;
+    margin-top: 100px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+.contacto-content h1{
+    text-align: center;
+    padding: 30px;
+    margin: 10px 0;
+    font-size: 1.5cm;
+}
+
+.contacto-content h1 a{
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.cuadro-de-contenido{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color:#0f0f0f;
+    height: 100%;
+    box-shadow:0 0 1px #3a42b3,
+    0 0 6px #3a42b3, 
+    0 0 12.5px #3a42b3,
+    0 0 25px #3a42b3;
+}
+
+.formulario-de-contacto p{
+    margin: 0;
+    padding: 20px;
+}
+
+.formulario-de-contacto h2{
+    padding: 10px;
+    margin: 10px;
+}
+
+.formulario-de-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario-de-contacto form .block{
+    grid-column: 1/3;
+}
+
+.formulario-de-contacto form button,
+.formulario-de-contacto form textarea, .formulario-de-contacto form input{
+    width: 100%;
+    padding: 30px;
+    border: none ;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #3a42b3;
+    color: #fff; 
+}
+
+.formulario-de-contacto form button{
+    font-size: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 1px solid #c9cdfc;
+    background-color: #3a42b3;
+    padding: 10px 20px;
+    border-radius: 200px;
+    box-shadow: 0 0 0px #3a42b3,
+    0 0 0px #3a42b3, 
+    0 0 0px #3a42b3,
+    0 0 25px #3a42b3;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.formulario-de-contacto form button:hover, .formulario-de-contacto form button:focus{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    box-shadow: none;
+}
+
+.informacion-de-contacto{
+    background-color: #000000;
+    background-size: cover;
+}
+
+.informacion-de-contacto p, .informacion-de-contacto ul, .informacion-de-contacto h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.informacion-de-contacto h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.informacion-de-contacto ul li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.informacion-de-contacto ul a i{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.content-footer{
+    width: 100%;
+    color: #fff;
+    height: 150px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info h3{
+    padding: 20px 0;
+    font-size: 1cm;
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.footer-info ul{
+    display: flex;
+}
+
+
+.footer-info ul li{
+    color: white;
+    margin: 0 5vw;
+    font-size: 30px;
+}
+
+.footer-info ul li a{
+    text-align: center;
+    font-size: 30px;
+    color: #c9cdfc;
+    text-shadow: 0 0 5px #3a42b3,
+    0 0 25px #3a42b3, 
+    0 0 50px #3a42b3,
+    0 0 100px #3a42b3;
+}
+
+.footer-info p{
+    margin-top: 5px;
+    margin: 20px;
+    color:#292929;
+}
+
+
+
+@media (max-width: 950px ){
+    .navbar ul p{
+        display: none;
+    }
+
+    .logo{
+        height: 100%;
+    }
+
+    .navbar ul i{
+        text-shadow: 0 0 5px #3a42b3,
+        0 0 25px #3a42b3, 
+        0 0 50px #3a42b3,
+        0 0 100px #3a42b3;
+        cursor: pointer;
+        color: #fff;
+        display: block;
+        padding: 0 30px;
+        font-size: 25px;
+    }
+
+    .cuadro-de-contenido{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color:#0f0f0f;
+        height: 100%;
+        box-shadow:0 0 1px #3a42b3,
+        0 0 6px #3a42b3, 
+        0 0 12.5px #3a42b3,
+        0 0 25px #3a42b3;
+    }
+
+    .home-info{
+        display: flex;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .home-conteiner{
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .home-imagen{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cv-botom{
+        margin-left: 0;
+    }
+
+    .about-info{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-me{
+        margin-top: 5%;
+    }
+
+    .leer-mas{
+        margin-left: 0;
+    }
+
+    .about-imagen{
+        justify-content: center;
+    }
+
+    .targeta-conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .targeta{
+       margin-top: 50px;
+    }
+
+    .targeta-imagen-2{
+        margin-top: 0px;
+    }
+    
+    .targeta-imagen-3{
+        margin-top: 0px;
+    }
+    
+
+}
